@@ -73,7 +73,7 @@ camera.position.y = 0;
 const INITIAL_MTL = new THREE.MeshPhongMaterial({ color: 0xf1f1f1, shininess: 10 });
 
 const INITIAL_MAP = [
-{ childID: "cloth", mtl: INITIAL_MTL }];
+{ childID: "main", mtl: INITIAL_MTL }];
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 //const INITIAL_LINK = [
@@ -102,7 +102,7 @@ loader.load(MODEL_PATH, function (gltf) {
   });
 
   // Set the models initial scale   
-  theModel.scale.set(3, 3, 3);
+  theModel.scale.set(1.5, 1.5, 1.5);
   theModel.rotation.y = Math.PI +135;
 
   // Offset the y position a bit
