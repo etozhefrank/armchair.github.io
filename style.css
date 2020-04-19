@@ -210,7 +210,7 @@ body {
 @media (max-width: 720px) {
   .ar {
    position: fixed;
-   top: 14%;
+   top: 15%;
    font-size: 12px;
   }
   .info {
@@ -229,7 +229,7 @@ body {
 @media (max-width: 680px) {
   .ar {
    position: fixed;
-   top: 14%;
+   top: 16%;
    font-size: 10px;
   }
   .color {
