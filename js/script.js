@@ -4,41 +4,41 @@ const TRAY = document.getElementById('js-tray-slide');
 const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
-const MODEL_PATH = "models/armchair.glb";
+const MODEL_PATH = "models/blenderbed.glb";
 var ev;
 var activeOption = 'cloth';
 var loaded = false;
 
 const colors = [
 {
-    texture: 'resources/BRONZE.jpg',
+    texture: 'resources/brown.png',
     size: [1,1,1],
     shininess: 0,
     link: 'https://www.elderly-neon.glitch.me/',
 },
 {
-    texture: 'resources/FABRIC.jpg',
+    texture: 'resources/lightbrown.png',
     size: [1,1,1],
     shininess: 1,
-    link: 'https://www.yandex.ru',
+    link: 'https://checker-equal-building.glitch.me/',
 },
 {
-    texture: 'resources/BLACK.png',
+    texture: 'resources/pink.png',
     size: [3,3,3],
     shininess: 40,
-    link: 'https://www.vk.com',
+    link: 'https://inexpensive-wind-red.glitch.me/',
 },
 {
-    texture: 'resources/GRAY.jpg',
+    texture: 'resources/red.png',
     size: [3,3,3],
     shininess: 41,
-    link: 'https://www.google.com',
+    link: 'https://fantastic-trusted-mat.glitch.me/',
 },
 {
-    texture: 'resources/LEATHER.png',
+    texture: 'resources/white.png',
     size: [2,2,2],
     shininess: 51,
-    link: 'https://www.youtube.com',
+    link: 'https://substantial-polarized-manchego.glitch.me/',
 }];
 
 
