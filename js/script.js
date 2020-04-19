@@ -5,43 +5,40 @@ const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
 const MODEL_PATH = "models/blenderbed.glb";
-var ev;
-var activeOption = 'cloth';
+var activeOption = 'main';
+var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
-
 const colors = [
 {
     texture: 'resources/brown.png',
     size: [1,1,1],
-    shininess: 0,
-    link: 'https://www.elderly-neon.glitch.me/',
+    shininess: 10,
+    link: 'https://elderly-neon.glitch.me/',
 },
 {
     texture: 'resources/lightbrown.png',
     size: [1,1,1],
-    shininess: 1,
+    shininess: 10,
     link: 'https://checker-equal-building.glitch.me/',
 },
 {
     texture: 'resources/pink.png',
-    size: [3,3,3],
-    shininess: 40,
+    size: [1,1,1],
+    shininess: 0,
     link: 'https://inexpensive-wind-red.glitch.me/',
 },
 {
     texture: 'resources/red.png',
-    size: [3,3,3],
-    shininess: 41,
+    size: [1,1,1],
+    shininess: 11,
     link: 'https://fantastic-trusted-mat.glitch.me/',
 },
 {
     texture: 'resources/white.png',
-    size: [2,2,2],
-    shininess: 51,
+    size: [1,1,1],
+    shininess: 11,
     link: 'https://substantial-polarized-manchego.glitch.me/',
 }];
-
-
 
 
 const BACKGROUND_COLOR = 0xf1f1f1;
@@ -67,7 +64,7 @@ document.body.appendChild(renderer.domElement);
 var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.z = cameraFar;
 camera.position.x = 0;
-camera.position.y = 0;
+camera.position.y = -6;
 
 // Initial material
 const INITIAL_MTL = new THREE.MeshPhongMaterial({ color: 0xf1f1f1, shininess: 10 });
@@ -102,8 +99,8 @@ loader.load(MODEL_PATH, function (gltf) {
   });
 
   // Set the models initial scale   
-  theModel.scale.set(0.9, 0.9, 0.9);
-  theModel.rotation.y = Math.PI +135;
+  theModel.scale.set(1.2, 1.2, 1.2);
+  theModel.rotation.y = Math.PI +90;
 
   // Offset the y position a bit
   theModel.position.y = -1;
