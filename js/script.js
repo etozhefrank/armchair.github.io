@@ -4,25 +4,25 @@ const TRAY = document.getElementById('js-tray-slide');
 const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
-const MODEL_PATH = "models/blenderbed.glb";
+const MODEL_PATH = "models/armchair.glb";
 var activeOption = 'main';
 var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
 const colors = [
 {
-    texture: 'resources/brown.png',
+    texture: 'resources/BLACK.png',
     size: [1,1,1],
     shininess: 10,
     link: 'https://invited-valley-steam.glitch.me/',
 },
 {
-    texture: 'resources/lightbrown.png',
+    texture: 'resources/BRONZE.jpg',
     size: [1,1,1],
     shininess: 10,
     link: 'https://lemon-mulberry-shadow.glitch.me/',
 },
 {
-    texture: 'resources/pink.png',
+    texture: 'resources/FABRIC.jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'https://galvanized-held-clove.glitch.me/',
@@ -34,7 +34,7 @@ const colors = [
     link: 'https://chocolate-paper-keeper.glitch.me/',
 },
 {
-    texture: 'resources/white.png',
+    texture: 'resources/LEATHER.png',
     size: [1,1,1],
     shininess: 11,
     link: 'https://elegant-clover-tank.glitch.me/',
