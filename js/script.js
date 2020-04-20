@@ -70,7 +70,7 @@ camera.position.y = -6;
 const INITIAL_MTL = new THREE.MeshPhongMaterial({ color: 0xf1f1f1, shininess: 10 });
 
 const INITIAL_MAP = [
-{ childID: "clothing", mtl: INITIAL_MTL }];
+{ childID: "cloth", mtl: INITIAL_MTL }];
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 //const INITIAL_LINK = [
