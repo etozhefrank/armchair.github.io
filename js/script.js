@@ -13,31 +13,31 @@ const colors = [
     texture: 'resources/brown.png',
     size: [1,1,1],
     shininess: 10,
-    link: 'https://elderly-neon.glitch.me/',
+    link: 'https://invited-valley-steam.glitch.me/',
 },
 {
     texture: 'resources/lightbrown.png',
     size: [1,1,1],
     shininess: 10,
-    link: 'https://checker-equal-building.glitch.me/',
+    link: 'https://lemon-mulberry-shadow.glitch.me/',
 },
 {
     texture: 'resources/pink.png',
     size: [1,1,1],
     shininess: 0,
-    link: 'https://inexpensive-wind-red.glitch.me/',
+    link: 'https://galvanized-held-clove.glitch.me/',
 },
 {
     texture: 'resources/red.png',
     size: [1,1,1],
     shininess: 11,
-    link: 'https://fantastic-trusted-mat.glitch.me/',
+    link: 'https://chocolate-paper-keeper.glitch.me/',
 },
 {
     texture: 'resources/white.png',
     size: [1,1,1],
     shininess: 11,
-    link: 'https://substantial-polarized-manchego.glitch.me/',
+    link: 'https://elegant-clover-tank.glitch.me/',
 }];
 
 
