@@ -99,7 +99,7 @@ loader.load(MODEL_PATH, function (gltf) {
   });
 
   // Set the models initial scale   
-  theModel.scale.set(2, 2, 2);
+  theModel.scale.set(4, 4, 4);
   theModel.rotation.y = Math.PI +90;
 
   // Offset the y position a bit
