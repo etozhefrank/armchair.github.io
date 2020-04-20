@@ -28,7 +28,7 @@ const colors = [
     link: 'https://laced-spectrum-fright.glitch.me/',
 },
 {
-    texture: 'resources/red.png',
+    texture: 'resources/GRAY.jpg',
     size: [1,1,1],
     shininess: 11,
     link: 'https://dust-inky-durian.glitch.me/',
