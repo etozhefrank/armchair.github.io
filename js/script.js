@@ -5,7 +5,7 @@ const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
 const MODEL_PATH = "models/armchair.glb";
-var activeOption = 'main';
+var activeOption = 'cloth';
 var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
 const colors = [
