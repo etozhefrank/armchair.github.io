@@ -31,7 +31,7 @@ const colors = [
     texture: 'resources/red.png',
     size: [1,1,1],
     shininess: 11,
-    link: 'https://substantial-polarized-manchego.glitch.me/',
+    link: 'https://dust-inky-durian.glitch.me/',
 },
 {
     texture: 'resources/LEATHER.png',
