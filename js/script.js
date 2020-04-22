@@ -4,7 +4,7 @@ const TRAY = document.getElementById('js-tray-slide');
 const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
-const MODEL_PATH = "models/armchair.glb";
+const MODEL_PATH = "models/armchairfixed.glb";
 var activeOption = 'cloth';
 var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
